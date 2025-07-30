@@ -658,7 +658,7 @@ ToggleButton.MouseButton1Click:Connect(function()
             local CreditSection = Tabs.Credits:AddSection("Información del creador")
             CreditSection:AddParagraph({
                 Title = "Mis redes",
-                Content = "TikTok: @christ_sebast_7d\nInstagram: @christ_sebast_7d"
+                Content = "TikTok: @christ_sebast_7d\nInstagram: @Roseb_astian"
             })
 
 
@@ -978,13 +978,44 @@ ToggleButton.MouseButton1Click:Connect(function()
             local JuegosSection = Tabs.ESP:AddSection("Juegos Disponibles")
 
             JuegosSection:AddButton({
-                Title = "rona un brainlot",
+                Title = "roba un brainlot",
                 Description = "Ejecuta el script Brainlot",
                 Callback = function()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/DynaFetchy/Scripts/refs/heads/main/Loader.lua"))()
                 end
             })
-
+                    
+                    JuegosSection:AddButton({
+                Title = "Blox Fruits",
+                Description = "Ejecuta el script Blox Fruits",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+                end
+            })
+                    
+                    JuegosSection:AddButton({
+                Title = "Rieles Muertos",
+                Description = "Ejecuta el script Rieles Muertos",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DeadRails", true))()
+                end
+            })
+                    
+                    JuegosSection:AddButton({
+                Title = "Jailbreak",
+                Description = "Ejecuta el script Jailbreak",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular"))()
+                end
+            })
+                    
+                     JuegosSection:AddButton({
+                Title = "Squid Game",
+                Description = "Ejecuta el script INK GAMES",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()
+                end
+            })
 
             do
                 local MainSection = Tabs.ESP:AddSection("Main ESP")
