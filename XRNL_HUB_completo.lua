@@ -1163,6 +1163,15 @@ ToggleButton.MouseButton1Click:Connect(function()
                     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-TOUCH-FLING-ULTRA-POWER-30194"))()
                 end
             })
+                    
+                    UtilidadesSection:AddButton({
+                Title = "TELEPORT",
+                Description = "Ejecuta teleport",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Christianxddd/TP/f93be6c709aeb8f246e8c1b517f32e13496e965b/main.lua"))()
+                end
+            })
+
 
 
             do
