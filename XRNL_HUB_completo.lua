@@ -992,6 +992,14 @@ ToggleButton.MouseButton1Click:Connect(function()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
                 end
             })
+
+                    JuegosSection:AddButton({
+                Title = "Blue lock Rivals",
+                Description = "Ejecuta un Panel De blue lock",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/XZuuyaX/XZuyaX-s-Hub/refs/heads/main/Main.Lua", true))()
+                end
+            })
                     
                     JuegosSection:AddButton({
                 Title = "Rieles Muertos",
@@ -1195,6 +1203,14 @@ ToggleButton.MouseButton1Click:Connect(function()
                 end
             })
                     
+                     UtilidadesSection:AddButton({
+                Title = "Volar",
+                Description = "Ejecuta FLY V3",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+                end
+            })
+                    
                     UtilidadesSection:AddButton({
                 Title = "TELEPORT",
                 Description = "Ejecuta teleport",
@@ -1390,7 +1406,7 @@ ToggleButton.MouseButton1Click:Connect(function()
             local CreditSection = Tabs.Credits:AddSection("Información del creador")
             CreditSection:AddParagraph({
                 Title = "Mis redes",
-                Content = "TikTok: @christ_sebast_7d\nInstagram: @christ_sebast_7d"
+                Content = "TikTok: @christ_sebast_7d\nInstagram: @roseb_astian"
             })
 
 
